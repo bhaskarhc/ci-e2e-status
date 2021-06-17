@@ -1,4 +1,5 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/openebs/ci-e2e-status)](https://goreportcard.com/report/github.com/openebs/ci-e2e-status)
+[![codecov](https://codecov.io/gh/bhaskarhc/ci-e2e-status/branch/master/graph/badge.svg?token=7GF6EWVVO3)](https://codecov.io/gh/bhaskarhc/ci-e2e-status)
 [![Build status](https://img.shields.io/gitlab/pipeline/openebs/ci-e2e-status.svg?color=green&gitlab_url=https%3A%2F%2Fgitlab.openebs.ci&style=plastic)](https://gitlab.openebs.ci/openebs/ci-e2e-status/pipelines)
 [![BCH compliance](https://bettercodehub.com/edge/badge/openebs/ci-e2e-status?branch=master)](https://bettercodehub.com/)
 
