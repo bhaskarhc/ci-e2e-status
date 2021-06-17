@@ -47,8 +47,13 @@ jobs:
         golint .
     
     # Run testing on the code
-    - name: Run testing
-      run: cd test && go test -v
+    # - name: Run testing
+    #   run: cd test && go test -v
+    
+    - name: Run coverage
+        run: go test -race -coverprofile=coverage.txt -covermode=atomic
+    - name: Upload coverage to Codecov
+        run: bash <(curl -s https://codecov.io/bash)
     
     # Send slack notification
     - name: Send slack notification
